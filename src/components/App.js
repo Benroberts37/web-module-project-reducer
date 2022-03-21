@@ -55,7 +55,7 @@ function App() {
             <div className="row">
               <CalcButton value={"M+"} onClick= {handleMemoryAdd}/>
               <CalcButton value={"MR"} onClick = {handleMemoryApply}/>
-              <CalcButton value={"MC"} onClick = {handleClearMemory}/>
+              <CalcButton value={"MC"} onClick = {handleMemoryClear}/>
             </div>
 
             <div className="row">
